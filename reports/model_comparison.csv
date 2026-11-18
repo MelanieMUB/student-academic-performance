@@ -1,0 +1,17 @@
+Features,Model,Accuracy,F1 (fail),Recall (fail),ROC-AUC,ROC-AUC std
+"A: with G1, G2",Dummy (baseline),0.671,0.0,0.0,0.5,0.0
+"A: with G1, G2",Logistic Regression,0.916,0.881,0.931,0.975,0.011
+"A: with G1, G2",Decision Tree,0.893,0.842,0.879,0.906,0.042
+"A: with G1, G2",Random Forest,0.911,0.871,0.921,0.97,0.011
+"A: with G1, G2",SVM,0.873,0.822,0.892,0.956,0.016
+"A: with G1, G2",k-NN,0.814,0.664,0.569,0.891,0.022
+"A: with G1, G2",XGBoost,0.9,0.849,0.859,0.973,0.011
+"A: with G1, G2",LightGBM,0.905,0.861,0.895,0.97,0.012
+"B: without G1, G2",Dummy (baseline),0.671,0.0,0.0,0.5,0.0
+"B: without G1, G2",Logistic Regression,0.647,0.508,0.556,0.677,0.047
+"B: without G1, G2",Decision Tree,0.604,0.437,0.477,0.59,0.053
+"B: without G1, G2",Random Forest,0.685,0.476,0.436,0.688,0.048
+"B: without G1, G2",SVM,0.651,0.469,0.467,0.666,0.051
+"B: without G1, G2",k-NN,0.669,0.327,0.246,0.613,0.043
+"B: without G1, G2",XGBoost,0.677,0.404,0.333,0.66,0.064
+"B: without G1, G2",LightGBM,0.654,0.489,0.505,0.678,0.07
